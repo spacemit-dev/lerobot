@@ -54,6 +54,8 @@ sudo apt install python3-venv ffmpeg
 
 ### 安装 python 依赖
 
+<!--
+
 下载并激活预安装的虚拟环境压缩包：
 
 ```plaintext
@@ -65,6 +67,8 @@ source ~/.lerobot-venv/bin/activate
 
 
 也可以直接从 LeRobot 源码安装：
+
+-->
 
 ```shell
 python3 -m venv ~/.lerobot-venv

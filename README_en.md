@@ -28,6 +28,8 @@ The following hardware is required:
 > Lerobot SDK must be installed on **both** the x86 workstation and the K1 board.
 > Unless otherwise specified, commands are executed on **K1**.
 
+<!--
+
 ### Download the Source Code
 
 ```bash
@@ -39,6 +41,8 @@ tar -xvf lerobot.tar.zg -C ~
 >
 > To reduce total bandwidth when streaming multi-view video, **Bianbu ROS converts video frames to MJPG format** based on the official LeRobot source code.
 > No other functional changes were made to ensure maximum upstream compatibility.
+
+-->
 
 ### Install System Dependencies
 
@@ -54,6 +58,8 @@ sudo apt install python3-venv ffmpeg
 
 ### Install Python Dependencies
 
+<!--
+
 **Option 1:** Use the Prebuilt Virtual Environment
 
 ```bash
@@ -63,6 +69,8 @@ source ~/.lerobot-venv/bin/activate
 ```
 
 **Option 2:** Install from LeRobot Source
+
+-->
 
 ```bash
 python3 -m venv ~/.lerobot-venv
